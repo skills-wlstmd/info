@@ -14,7 +14,7 @@ echo $date > /var/www/html/date.html
 echo $(hostname) > /var/www/html/hostname.html
 ```
 
-### 시스템 업타임 표시:
+### 시스템 업타임 표시
 ```bash
 echo $(uptime -p) > /var/www/html/uptime.html
 ```
